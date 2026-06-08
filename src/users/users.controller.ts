@@ -12,7 +12,7 @@ export class UsersController {
 
     @Get() // GET /users
     findAll() {
-        []
+        return []
     }
 
     @Get(':id') // GET /users/:id
