@@ -43,7 +43,7 @@ export class UsersService {
     }
 
     findOne(id: number) {
-        const user = this.users.find(usr=> user.id === id)
+        const user = this.users.find(user=> user.id === id)
 
         return user
     }
